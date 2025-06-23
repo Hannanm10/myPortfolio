@@ -35,7 +35,7 @@ function App() {
       <section id="home" className="hero">
         <img src="/profile.jpg" alt="Your Name" className="profile-img" />
         <h1>Hannan Mushtaq</h1>
-        <p>Creative Developer & CS Student</p>
+        <p>Creative Developer & Computer Science Student</p>
       </section>
 
       {/* About Me */}
