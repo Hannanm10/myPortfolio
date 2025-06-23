@@ -1,9 +1,15 @@
-import React from 'react';
-import { FaDownload, FaLinkedin, FaGithub, FaEnvelope, FaBriefcase, FaGraduationCap, FaTrophy, FaCode, FaLaptopCode, FaAtom, FaBook, FaProjectDiagram, FaPhone, FaPhoneAlt } from 'react-icons/fa';
+import React, {useState} from 'react';
+import { FaDownload, FaLinkedin, FaGithub, FaEnvelope, FaBriefcase, FaGraduationCap, FaCode, FaLaptopCode, FaAtom, FaProjectDiagram, FaPhoneAlt, FaBars, FaTimes} from 'react-icons/fa';
 import './App.css';
-import { Fa9 } from 'react-icons/fa6';
 
 function App() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   const skills = {
     Languages: ['Python', 'C++', 'C#', 'SQL','LaTeX'],
     'Web Development': ['HTML/CSS', 'JavaScript', 'React.js', 'Node.js', '.NET', 'Full Stack Development', 'Responsive Design'],
@@ -20,15 +26,25 @@ function App() {
     <div className="portfolio">
       {/* Navbar */}
       <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About Me</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#resume">Résumé</a>
-        <a href="#skills">Skills</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <div className="nav-brand">
+          <a>Hannan Mushtaq</a>
+        </div>
+        
+        <div className={`nav-links ${isOpen ? 'active' : ''}`}>
+          <a href="#home">Home</a>
+          <a href="#about">About Me</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#resume">Résumé</a>
+          <a href="#skills">Skills</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        
+        <button className="menu-toggle" onClick={toggleMenu}>
+          {isOpen ? <FaTimes /> : <FaBars />}
+        </button>
       </nav>
 
       {/* Hero Section */}
@@ -147,9 +163,9 @@ function App() {
       {/* Projects */}
       <section id="projects" className="section">
         <h2><FaProjectDiagram />Projects</h2>
-        <p>A quick look at some projects I've enjoyed building.
+        {/* <p>A quick look at some projects I've enjoyed building.
           <br /><br />
-        </p>
+        </p> */}
         <div className="project-grid">
           <div className="project-card">
             <div className="project-info">
@@ -184,10 +200,10 @@ function App() {
       {/* Contact */}
       <section id="contact" className="section">
         <h2><FaPhoneAlt />Contact Me</h2>
-        <p>I'm always excited to discuss new projects, collaborations, or innovative ideas. Let's connect!
+        {/* <p>I'm always excited to discuss new projects, collaborations, or innovative ideas. Let's connect!
         <br />
         <br />
-        </p>
+        </p> */}
         <div className="contact-container">
           <div className="contact-links">
             <a href="mailto:hannanmushtaq867@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope />hannanmushtaq867@gmail.com</a>
