@@ -31,7 +31,6 @@ function App() {
         </div>
         
         <div className={`nav-links ${isOpen ? 'active' : ''}`}>
-          <a href="#home">Home</a>
           <a href="#about">About Me</a>
           <a href="#education">Education</a>
           <a href="#experience">Experience</a>
@@ -192,6 +191,51 @@ function App() {
               <br /><br />-{'>'} Kotlin, Jetpack, Cybersecurity, Android Studio
               </p>
               <a href="https://github.com/Hannanm10/RiskReminderSecurityApp.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-info">
+              <h3>UET Campus Navigation System</h3>
+              <p>Built an interactive navigation system for navigating easily from one location to another across the UET campus. Graphs were used to represent the campus map and Dijkstra's algorithm was implemented for finding the shortest path. Routing history was also maintained.
+              <br /><br />-{'>'} C#, Data Structures, Algorithms, Visual Studio, .NET, Collaboration
+              </p>
+              <a href="https://github.com/Hannanm10/Campus-Navigation-System.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-info">
+              <h3>Klondike Solitaire</h3>
+              <p>Developed a Klondike-style solitaire game using different data structures like stacks, queues, linked lists and dictionaries. Implemented card moves, game rules, scoring system, win condition and a user-friendly interface just like the game. Also added undo and redo features for better user experience. 
+              <br /><br />-{'>'} C#, Data Structures, Visual Studio, .NET
+              </p>
+              <a href="https://github.com/Hannanm10/Klondike-Solitaire.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-info">
+              <h3>Data Scraping & Sorting Project</h3>
+              <p>Scraped data from a website using Python and BeautifulSoup, then implemented different algorithms like Bubble Sort, Merge Sort, and Quick Sort for sorting the data. The project also included visualizing the sorting process and comparing sorting algorithms.
+              <br /><br />-{'>'} Python, Algorithms, Data Scraping, Visualization
+              </p>
+              <a href="https://github.com/Hannanm10/Data-Sorting-Scrapping-Project.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-info">
+              <h3>Stadium Management System</h3>
+              <p>Developed a basic system for managing tickets for a stadium as part of the Programming Fundamentals course, then extended it using OOP and DBMS to manage a whole stadium and added a user-friendly interface. Implemented features like match scheduling, and ticket booking. User authentication and authorization were also added.
+              <br /><br />-{'>'} C++, C#, SQL, Database Design, OOP, DBMS, .NET, Visual Studio, SSMS, Windows Forms
+              </p>
+              <a href="https://github.com/Hannanm10/Stadium-Management-System.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-info">
+              <h3>Personal Portfolio Website</h3>
+              <p>This portfolio website is built using React.js and showcases my skills, projects, and experiences. It includes different sections for about me, education, experience, skills, services, projects, and contact information. Interactive elements and responsive design ensure a great user experience across devices and deployment is done using vercel.
+              <br /><br />-{'>'} React.js, Node.js, HTML, CSS, JavaScript, Responsive Design, VS Code, Vercel
+              </p>
+              <a href="https://github.com/Hannanm10/myPortfolio.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
           </div>
         </div>
