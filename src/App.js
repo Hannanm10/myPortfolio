@@ -66,12 +66,12 @@ function App() {
         <div className="timeline">
           <div className="timeline-item">
             <h3>University of Engineering & Technology, Lahore</h3>
-            <p className="timeline-date">B.Sc. Computer Science | 2023-2027</p>
+            <p className="timeline-date">B.Sc. Computer Science | 2023 - 2027 (Expected)</p>
             <p>Current CGPA: 3.74</p>
           </div>
           <div className="timeline-item">
             <h3>Government College University, Lahore</h3>
-            <p className="timeline-date">F.Sc. Pre-Engineering | 2021-2023</p>
+            <p className="timeline-date">F.Sc. Pre-Engineering | 2021 - 2023</p>
             <p>Grade: A</p>
           </div>
         </div>
@@ -87,7 +87,7 @@ function App() {
             <ul>
               <li>Odoo Development</li>
               <li>Project Management & Teamwork</li>
-              <li>IJira & Slack</li>
+              <li>Jira & Slack</li>
             </ul>
           </div>
           <div className="timeline-item">
