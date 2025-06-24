@@ -545,7 +545,7 @@ footer {
   .nav-links {
     top: 50px; /* Matches navbar height */
     width: 60%; /* Narrower menu */
-    max-height: 80vh; /* Limits height */
+    max-height: 70vh; /* Limits height */
     overflow-y: auto; /* Scroll if many items */
     padding: 0.5rem 0;
     background: rgba(7, 3, 20, 0.98); /* Slightly transparent */

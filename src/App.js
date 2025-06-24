@@ -17,7 +17,7 @@ function App() {
     'Data Science': ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Data Analysis'],
     'Mobile Development': ['Android (Kotlin)', 'Jetpack'],
     Database: ['MySQL', 'PostgreSQL', 'MongoDB', 'Design & Optimization'],
-    Tools: ['Git & GitHub', 'Visual Studio', 'VS Code', 'Android Studio', 'Google Colab', 'Canva', 'Jira', 'Slack'],
+    Tools: ['Git & GitHub', 'Visual Studio', 'VS Code', 'SSMS','Android Studio', 'Google Colab', 'Canva', 'Jira', 'Slack'],
     'Programming Concepts': ['OOP', 'DSA'],
     'Soft Skills': ['Problem Solving', 'Team Collaboration', 'Adaptability', 'Management'],
   };
@@ -65,7 +65,7 @@ function App() {
         <div className="timeline">
           <div className="timeline-item">
             <h3>University of Engineering & Technology, Lahore</h3>
-            <p className="timeline-date">B.Sc. Computer Science | 2023 - 2027 (Expected)</p>
+            <p className="timeline-date">BS Computer Science | 2023 - 2027 (Expected)</p>
             <p>Current CGPA: 3.74</p>
           </div>
           <div className="timeline-item">
@@ -236,6 +236,42 @@ function App() {
               <br /><br />-{'>'} React.js, Node.js, HTML, CSS, JavaScript, Responsive Design, VS Code, Vercel
               </p>
               <a href="https://github.com/Hannanm10/myPortfolio.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-info">
+              <h3>Lab Management System</h3>
+              <p>A a lab management system in C# with SQL database integration. It streamlines the management of student evaluations for a course lab, allowing teachers to efficiently handle various academic components related to Outcome-Based Education (OBE). Implemented features like managing students, CLO's, rubrics, assessments and evaluations.
+              <br /><br />-{'>'} C#, SQL, DBMS, Visual Studio, Windows Forms, .NET, SSMS
+              </p>
+              <a href="https://github.com/Hannanm10/Lab-Management-System.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-info">
+              <h3>Game Framework</h3>
+              <p>Developed a game framework using C# and .NET that allows users to create and run simple games. Advanced Object-Oriented Programming principles were used in the making. The framework includes features like game loop, event handling, character movements and basic graphics rendering. It serves as a foundation for building more complex games.
+              <br /><br />-{'>'} C#, .NET, Game Development, Visual Studio, Object Oriented Programming
+              </p>
+              <a href="https://github.com/Hannanm10/OOP-Game-Backend.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-info">
+              <h3>The Mystery Maze</h3>
+              <p>Developed a 2D maze game using C++ where player navigates through a maze, collects pills, and avoid enemies with different movements. The player can also shoot to kill enemies and collect randomly generated power-ups. The game includes a scoring system and it is designed to be engaging and challenging. Added resume game feature to continue from where the player left off.
+              <br /><br />-{'>'} C++, Game Development, VS Code, File Handling
+              </p>
+              <a href="https://github.com/Hannanm10/The-Mystery-Maze.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-info">
+              <h3>Footy World Website</h3>
+              <p>Developed a football news and blog website using basic frontend knowledge. The website features a modern design, responsive layout, and static content. It includes sections for latest news, online match streaming sites, some history, and more. Also, added some animations and effects for better user experience. The project showcases frontend development and web design.
+              <br /><br />-{'>'} HTML, CSS, JavaScript, Web Design, Frontend Development
+              </p>
+              <a href="https://github.com/Hannanm10/Simple-Blog-Website-using-HTML-CSS-JS.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
           </div>
         </div>
