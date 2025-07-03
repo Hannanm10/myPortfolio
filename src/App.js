@@ -84,9 +84,9 @@ function App() {
             <h3>Summer Intern</h3>
             <p className="timeline-date">Ustadam | June 2024 - August 2024</p>
             <ul>
-              <li>Odoo Development</li>
-              <li>Project Management & Teamwork</li>
-              <li>Jira & Slack</li>
+              <li>Gained a foundational knowledge of Odoo development, including its architecture and module customization.</li>
+              <li>Developed skills in project management and effective teamwork by active participation in collaborative tasks.</li>
+              <li>Using tools like Jira and Slack to manage development workflows and enhance team communication.</li>
             </ul>
           </div>
           <div className="timeline-item">
