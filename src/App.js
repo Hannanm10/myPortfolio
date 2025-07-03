@@ -27,7 +27,7 @@ function App() {
       {/* Navbar */}
       <nav>
         <div className="nav-brand">
-          <a>Hannan Mushtaq</a>
+          <a href="#home">Hannan Mushtaq</a>
         </div>
         
         <div className={`nav-links ${isOpen ? 'active' : ''}`}>
