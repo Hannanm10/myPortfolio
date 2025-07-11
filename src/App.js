@@ -172,7 +172,7 @@ function App() {
               <p>Built a simple CLI-Based custom Database Management System from scratch as part of a group project. Added components like Storage Engine, Query Processor, Indexing using BPlus Trees and Transaction Manager.
               <br /><br />-{'>'} C#, NoSQL, Data Structures, Database Design, OOP, Visual Studio, Collaboration
               </p>
-              <a href="https://github.com/Ahmad-17R/DBMS.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+              <a href="https://github.com/Hannanm10/Custom-DBMS.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
           </div>
           <div className="project-card">
