@@ -11,14 +11,14 @@ function App() {
   };
 
   const skills = {
-    Languages: ['Python', 'C++', 'C#', 'SQL','LaTeX'],
-    'Web Development': ['HTML/CSS', 'JavaScript', 'React.js', 'Node.js', '.NET', 'Full Stack Development', 'Responsive Design'],
-    'AI/ML': ['Scikit-learn', 'TensorFlow', 'Keras', 'XGBoost', 'Model Evaluation'],
-    'Data Science': ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Data Analysis'],
-    'Mobile Development': ['Android (Kotlin)', 'Jetpack'],
+    Languages: ['Python', 'C++', 'C#', 'SQL'],
+    'Web Development': ['HTML/CSS', 'JavaScript', 'React.js', 'Node.js', '.NET', 'Full Stack Development', 'Responsive Design', 'Web Design'],
+    'Mobile Development': ['Android (Kotlin)', 'Jetpack Compose', 'XML Layouts'],
     Database: ['MySQL', 'PostgreSQL', 'MongoDB', 'Design & Optimization'],
-    Tools: ['Git & GitHub', 'Visual Studio', 'VS Code', 'SSMS','Android Studio', 'Google Colab', 'Canva', 'Jira', 'Slack'],
-    'Programming Concepts': ['OOP', 'DSA'],
+    'AI/ML': ['Scikit-learn', 'TensorFlow', 'Keras', 'XGBoost', 'Model Evaluation'],
+    'Data Science': ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Data Analysis', 'Data Visualization'],
+    Tools: ['Git & GitHub', 'LaTeX', 'Visual Studio', 'VS Code', 'SSMS','Android Studio', 'Google Colab', 'Canva', 'Jira', 'Slack'],
+    'Programming Concepts': ['Object-Oriented Programming', 'Data Structures & Algorithms'],
     'Soft Skills': ['Problem Solving', 'Team Collaboration', 'Adaptability', 'Management'],
   };
 
@@ -66,12 +66,12 @@ function App() {
           <div className="timeline-item">
             <h3>University of Engineering & Technology, Lahore</h3>
             <p className="timeline-date">BS Computer Science | 2023 - 2027 (Expected)</p>
-            <p>Current CGPA: 3.74</p>
+            <p>Current CGPA: 3.755</p>
           </div>
           <div className="timeline-item">
             <h3>Government College University, Lahore</h3>
             <p className="timeline-date">F.Sc. Pre-Engineering | 2021 - 2023</p>
-            <p>Grade: A</p>
+            <p>Grade: A+</p>
           </div>
         </div>
       </section>
@@ -166,20 +166,20 @@ function App() {
           <br /><br />
         </p> */}
         <div className="project-grid">
-          <div className="project-card">
+        <div className="project-card">
             <div className="project-info">
-              <h3>KarweDB - A Custom Database Management System</h3>
-              <p>Built a simple CLI-Based custom Database Management System from scratch as part of a group project. Added components like Storage Engine, Query Processor, Indexing using BPlus Trees and Transaction Manager.
-              <br /><br />-{'>'} C#, NoSQL, Data Structures, Database Design, OOP, Visual Studio, Collaboration
+              <h3>Karwe Law - AI Legal Information Bot for Researchers</h3>
+              <p>Built a Legal Information Bot mainly for researchers and students for help regarding Intellectual Property, patents, copyright issues, etc. Software Project Management was the main learning goal and was successfully done using Jira.
+              <br /><br />-{'>'} React.js, Node.js, HTML, CSS, JavaScript, VS Code, Jira, Team Collaboration, Project Management
               </p>
-              <a href="https://github.com/Hannanm10/Custom-DBMS.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+              <a href="https://github.com/Hannanm10/AI-Legal-Information-Bot-for-Researchers.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
           </div>
           <div className="project-card">
             <div className="project-info">
               <h3>AI-Based Football Match Outcome Prediction</h3>
               <p>Trained different models on a feature-rich dataset for predicting football match outcomes using machine learning and some deep learning. Used ensemble models and compared performance of each model. Also, wrote an IEEE-style research paper for it.
-              <br /><br />-{'>'} Python, Data Science, AI/ML, Google Colab, LaTeX
+              <br /><br />-{'>'} Python, Data Science, AI/ML, Google Colab, LaTeX, Research, Model Evaluation
               </p>
               <a href="https://github.com/Hannanm10/Football-Match-Outcome-Prediction.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
@@ -187,10 +187,19 @@ function App() {
           <div className="project-card">
             <div className="project-info">
               <h3>Risk Reminder Security App</h3>
-              <p>Developed an android app to show the usage information of sensitive permissions like camera, microphone & location by other apps. Major feature was monitoring camera usage on your android. Other features include regular security tips & reminder notifications and battery usage stats.
-              <br /><br />-{'>'} Kotlin, Jetpack, Cybersecurity, Android Studio
+              <p>Developed an android app to show the usage information of sensitive permissions like camera, microphone & location by other apps. Major feature was monitoring camera usage on your android. Other features include regular security tips & reminder notifications and battery usage stats. Stregthened my knowledge of Android development.
+              <br /><br />-{'>'} Kotlin, Jetpack Compose, Cybersecurity, Android Studio
               </p>
               <a href="https://github.com/Hannanm10/RiskReminderSecurityApp.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-info">
+              <h3>KarweDB - A Custom Database Management System</h3>
+              <p>Built a simple CLI-Based custom Database Management System from scratch as part of a group project. Added components like Storage Engine, Query Processor, Indexing using BPlus Trees and Transaction Manager.
+              <br /><br />-{'>'} C#, NoSQL, Data Structures, Database Design, OOP, Visual Studio, Collaboration
+              </p>
+              <a href="https://github.com/Hannanm10/Custom-DBMS.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
           </div>
           <div className="project-card">
@@ -214,8 +223,8 @@ function App() {
           <div className="project-card">
             <div className="project-info">
               <h3>Data Scraping & Sorting Project</h3>
-              <p>Scraped data from a website using Python and BeautifulSoup, then implemented different algorithms like Bubble Sort, Merge Sort, and Quick Sort for sorting the data. The project also included visualizing the sorting process and comparing sorting algorithms.
-              <br /><br />-{'>'} Python, Algorithms, Data Scraping, Visualization
+              <p>Scraped data from a website using Python and BeautifulSoup, then implemented different algorithms like Bubble Sort, Merge Sort, and Quick Sort for sorting the data. The project also included visualizing the sorting process and comparing sorting algorithms. The project was a great learning experience.
+              <br /><br />-{'>'} Python, Algorithms, Data Scraping, Visualization, BeautifulSoup, Matplotlib, Seaborn, VS Code
               </p>
               <a href="https://github.com/Hannanm10/Data-Sorting-Scrapping-Project.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
@@ -241,8 +250,8 @@ function App() {
           <div className="project-card">
             <div className="project-info">
               <h3>Lab Management System</h3>
-              <p>A a lab management system in C# with SQL database integration. It streamlines the management of student evaluations for a course lab, allowing teachers to efficiently handle various academic components related to Outcome-Based Education (OBE). Implemented features like managing students, CLO's, rubrics, assessments and evaluations.
-              <br /><br />-{'>'} C#, SQL, DBMS, Visual Studio, Windows Forms, .NET, SSMS
+              <p>A lab management system in C# with SQL database integration. It streamlines the management of student evaluations for a course lab, allowing teachers to efficiently handle various academic components related to Outcome-Based Education (OBE). Implemented features like managing students, CLO's, rubrics, assessments and evaluations.
+              <br /><br />-{'>'} C#, SQL, DBMS, Visual Studio, Windows Forms, .NET, SSMS, Database Design
               </p>
               <a href="https://github.com/Hannanm10/Lab-Management-System.git" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
